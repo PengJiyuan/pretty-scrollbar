@@ -5,7 +5,7 @@
 ## Usage
 
 ```bash
-$ npm install prettyScroll --save
+$ npm install pretty-scrollbar --save
 ```
 ```javascript
 var prettyScroll = require('prettyScroll');
