@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>prettyScrollBar Demo</title>
+<style type="text/css">
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.word1 {
+  color: green;
+  margin: 20px auto;
+  width: 600px;
+}
+.demo1-wrapper {
+  display: inline-block;
+  padding: 1px;
+  width: 302px;
+  height: 302px;
+  border: 1px solid black;
+}
+.demo1 {
+  width: 300px;
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.demo2 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  background-color: #ef8376;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.demo3 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.demo4-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+.demo4 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  z-index: 8;
+  background-color: #CEE3F6;
+}
+.demo4 > ul > li {
+    width: 200px;
+    height: 32px;
+    margin-left: -40px;
+    padding: 0;
+    list-style: none;
+}
+.demo4-upper {
+    position: absolute;
+    top: 0;
+    left: 203px;
+    z-index: 12;
+    margin-left: -18px;
+    display: inline-block;
+    background-color: #E6E6E6;
+    width: 400px;
+    height: 100%;
+}
+</style>
+</head>
+<body>
+<div class="demo1-wrapper">
+    <div class="demo1">
+      <pre>
+  山不在高，有仙则名。
+  水不在深，有龙则灵。
+  斯是陋室，惟吾德馨。
+  苔痕上阶绿，草色入帘青。
+  谈笑有鸿儒，往来无白丁。
+  可以调素琴，阅金经。
+  无丝竹之乱耳，无案牍之劳形。
+  南阳诸葛庐，西蜀子云亭。
+  孔子云：“何陋之有？”
+  山不在高，有仙则名。
+  水不在深，有龙则灵。
+  斯是陋室，惟吾德馨。
+  苔痕上阶绿，草色入帘青。
+  谈笑有鸿儒，往来无白丁。
+  可以调素琴，阅金经。
+  无丝竹之乱耳，无案牍之劳形。
+  南阳诸葛庐，西蜀子云亭。
+  孔子云：“何陋之有？”
+      </pre> 
+    </div>
+</div>
+<div class="demo2">
+      <pre>
+  山不在高，有仙则名。
+  水不在深，有龙则灵。
+  斯是陋室，惟吾德馨。
+  苔痕上阶绿，草色入帘青。
+  谈笑有鸿儒，往来无白丁。
+  可以调素琴，阅金经。
+  无丝竹之乱耳，无案牍之劳形。
+  南阳诸葛庐，西蜀子云亭。
+  孔子云：“何陋之有？”
+  山不在高，有仙则名。
+  水不在深，有龙则灵。
+  斯是陋室，惟吾德馨。
+  苔痕上阶绿，草色入帘青。
+  谈笑有鸿儒，往来无白丁。
+  可以调素琴，阅金经。
+  无丝竹之乱耳，无案牍之劳形。
+  南阳诸葛庐，西蜀子云亭。
+  孔子云：“何陋之有？”
+      </pre> 
+</div>
+<div class="demo3">
+      <pre>
+  山不在高，有仙则名。
+  水不在深，有龙则灵。
+  斯是陋室，惟吾德馨。
+  苔痕上阶绿，草色入帘青。
+  谈笑有鸿儒，往来无白丁。
+  可以调素琴，阅金经。
+  无丝竹之乱耳，无案牍之劳形。
+  南阳诸葛庐，西蜀子云亭。
+  孔子云：“何陋之有？”
+  山不在高，有仙则名。
+  水不在深，有龙则灵。
+  斯是陋室，惟吾德馨。
+  苔痕上阶绿，草色入帘青。
+  谈笑有鸿儒，往来无白丁。
+  可以调素琴，阅金经。
+  无丝竹之乱耳，无案牍之劳形。
+  南阳诸葛庐，西蜀子云亭。
+  孔子云：“何陋之有？”
+      </pre> 
+</div>
+<div class="word1">
+      其实prettyScrollBar是生成了一个和背景颜色一样的div将默认的滚动条覆盖了，然后模拟出来一个滚动条，如果想要更好的效果，可以用下边覆盖的方式。
+</div>
+<div class="demo4-wrapper">
+  <div class="demo4">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+  <div class="demo4-upper">
+        设置一个用于覆盖的div， 比如这个，z-index大于10即可。margin-left: -20px;然后设置wrapperColor: 'rgba(0,0,0,0)'; right: 20;即可如此效果。
+  </div>
+</div>
+<script src="lib/prettyScrollBar.js"></script>
+<script type="text/javascript">
+var demos = {};
+for(var i=1;i<3;i++) {
+  demos['demo'+i] = document.querySelector('.demo'+i);
+}
+PrettyScroll('.demo1', {
+    right: 0,
+    autoHide: false
+});
+PrettyScroll('.demo2');
+PrettyScroll('.demo3');
+Array.from(document.querySelectorAll('.demo4 > ul > li')).forEach(function(item) {
+    item.style.backgroundColor = '#'+(~~(Math.random()*(1<<24))).toString(16);
+});
+PrettyScroll('.demo4', {
+    autoHide: false,
+    right: 17,
+    defaultWrapperWidth: 17,
+    wrapperColor: 'rgba(0,0,0,0)'
+});
+</script>
+</body>
+</html>
