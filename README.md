@@ -8,7 +8,7 @@
 $ npm install pretty-scrollbar --save
 ```
 ```javascript
-var prettyScroll = require('prettyScroll');
+var prettyScroll = require('pretty-scrollbar');
 prettyScroll(element, options);
 ```
 
@@ -25,17 +25,28 @@ PrettyScroll(element, options);
 
 ## Options
 
-* **defaultWrapperWidth**
-  默认滚动条背景的宽度， 用于遮盖默认滚动条。默认为`20`。
-* **barWidth**
-  自定义滚动条的宽度。默认为`7`。
-* **wrappColor**
-  默认滚动条背景的颜色。默认为`null`。会自动识别element的背景颜色，如果没有则设置为`#fff`。
-* **barColor**
-  自定义滚动条的颜色。默认为`rgba(0, 0, 0, 0.4)`。
-* **right**
-  自定义滚动条距离所选element右边界的距离。默认为`2`。
-* **autoHide**
+* **defaultWrapperWidth**    
+
+  默认滚动条背景的宽度， 用于遮盖默认滚动条。默认为`20`。    
+  
+* **barWidth**    
+
+  自定义滚动条的宽度。默认为`7`。    
+  
+* **wrappColor**    
+
+  默认滚动条背景的颜色。默认为`null`。会自动识别element的背景颜色，如果没有则设置为`#fff`。    
+  
+* **barColor**    
+
+  自定义滚动条的颜色。默认为`rgba(0, 0, 0, 0.4)`。    
+  
+* **right**    
+
+  自定义滚动条距离所选element右边界的距离。默认为`2`。    
+  
+* **autoHide**    
+
   是否自动隐藏滚动条。默认为`true`。
 
 ## Demo
