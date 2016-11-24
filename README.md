@@ -1,4 +1,4 @@
-# PrettyScroll
+# pretty-scrollbar
 
 隐藏传统滚动条，生成自定义滚动条。·[Demo](http://pengjiyuan.github.io/pretty-scrollbar)
 
